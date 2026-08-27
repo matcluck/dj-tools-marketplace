@@ -1,0 +1,28 @@
+{
+  "name": "dj-tools",
+  "description": "Public DJ library organisation and Rekordbox workflow plugins",
+  "owner": {
+    "name": "matcluck",
+    "url": "https://github.com/matcluck"
+  },
+  "plugins": [
+    {
+      "name": "music-organiser",
+      "version": "0.1.0",
+      "description": "Organise DJ music libraries and generate destination-neutral cue proposals",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matcluck/music-organiser-plugin.git"
+      }
+    },
+    {
+      "name": "rekordbox-skill",
+      "version": "0.1.0",
+      "description": "Safely inspect and publish collections, playlists, and cue points to Rekordbox",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matcluck/rekordbox-plugin.git"
+      }
+    }
+  ]
+}
